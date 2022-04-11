@@ -1,8 +1,8 @@
 'use strict'
 const falso = require('@ngneat/falso')
 const businesses = [...Array(10)].map(() => ({
-  businessName: falso.randCompanyName(),
-  phoneNmber: falso.randPhoneNumber({ countryCode: 'US' }),
+  name: falso.randCompanyName(),
+  phoneNumber: falso.randPhoneNumber({ countryCode: 'US' }),
   rating: falso.randNumber({ min: 0, max: 100 })
 }))
 module.exports = {
