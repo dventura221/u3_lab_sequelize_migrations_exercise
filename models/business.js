@@ -22,7 +22,7 @@ module.exports = (sequelize, DataTypes) => {
         allowNull: false
       },
       rating: {
-        type: DataTypes.STRING,
+        type: DataTypes.INTEGER,
         allowNull: false,
         defaultValue: 0,
         validate: {
